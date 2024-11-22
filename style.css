@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .terminal {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    overflow-y: auto;
+  }
+  
+  .input {
+    background-color: #000;
+    color: #00ff00;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+  }
+  
