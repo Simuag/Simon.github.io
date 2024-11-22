@@ -19,7 +19,7 @@ build/
 .nuxt/
 .next/
 
-# Tailwind CSS output
+# Tailwind CSS output (if generated at build)
 static/css/tailwind.css
 
 # SvelteKit related files
@@ -41,8 +41,6 @@ docker-compose.override.yml
 *.sublime-project
 *.sublime-workspace
 
-# Ignore public directory if it's generated (e.g., Gatsby or SvelteKit)
-public/
-
-# Ignore lockfiles if not needed (optional)
-yarn.lock
+# Lockfiles (optional, remove if reproducibility is needed)
+# yarn.lock
+package-lock.json
