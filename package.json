@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "private": true,
+  "private": false,
   "version": "NA",
   "type": "module",
   "license": "NA",
@@ -11,8 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Simuag/Simuag.github.io"
+    "homepage": "https://simuag.github.io/"
   },
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
